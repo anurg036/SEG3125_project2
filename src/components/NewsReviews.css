@@ -1,0 +1,88 @@
+/* news_reviews.css */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffcc00;
+}
+
+nav {
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffcc00;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 20px;
+}
+
+.section {
+  background-color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #ffcc00;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #ffcc00;
+}
+
+.container {
+  padding: 20px;
+}
+
+.tournament-list {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.tournament {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.tournament h2 {
+  color: #ffcc00;
+  margin: 0 0 10px;
+}
+
+.tournament p {
+  margin: 0;
+}
